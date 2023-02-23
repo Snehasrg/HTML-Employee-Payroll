@@ -27,7 +27,9 @@ body {
     border: 0px solid green;
     width: 80%;
 }
-
+img{
+    width: 5%;
+}
 .logo-content-img {
     border: 0px solid #42515f;
 }
@@ -103,4 +105,21 @@ label {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+}
+
+.profile-radio-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-radio-content>label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
 }
